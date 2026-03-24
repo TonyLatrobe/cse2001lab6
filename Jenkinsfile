@@ -4,7 +4,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello from Repo A Jenkins platform! Welcome to feature 2!'
-            }
+            
         }
         stage('Environment Info') {
             steps {
